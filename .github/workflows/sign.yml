@@ -1,4 +1,4 @@
-```yaml
+
 name: AutoMihoyoBBS
 
 on:
@@ -21,4 +21,4 @@ jobs:
       env:
         COOKIE: ${{ secrets.COOKIE }}
       run: python main.py
-```
+
